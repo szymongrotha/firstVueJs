@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    background: #973DBB;
+    font-family: Fjalla One;
+}
+
+.calendar-header {
+    text-align: center;
+    color: #B5F44A;
+    text-shadow: 2px 2px 4px #87D8C0;
+    margin-bottom: 20px;
+}
+
+.panel-default {
+    border: none;
+}
+
+.panel-default .panel-heading {
+    background-color: #5BC0EB;
+    color: #B5F44A;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.panel-body {
+    background-color: #B5F44A;
+    border-color: #000;
+}
+
+.btn {
+    background: #5BC0EB;
+    color: #B5F44A;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 20px;
+    border: none;
+}
+
+.btn:hover {
+    background: #87D8C0;
+    color: #B5F44A;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.form-control {
+    background-color: #FDE74C;
+    border: 0;
+}
