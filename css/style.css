@@ -7,7 +7,7 @@ body {
 }
 
 .logo {
-    height: 130px;
+    height: 100px;
     padding-top: 10px;
 }
 
@@ -24,8 +24,15 @@ span {
     font-weight: 100;
 }
 
-h3 {
+h4 {
+    color: #41B883;
+    text-shadow: 1px 1px 1px #35495E;
+    font-size: 25px;
+}
+
+h3, h5 {
     font-weight: 300;
+    color: #FFFFFF;
     margin: 0;
     margin-bottom: 5px;
 }
@@ -37,7 +44,7 @@ p {
     margin-bottom: 40px;
 }
 
-.panel-default {
+.panel-default, .list-group-item, a.list-group-item:hover  {
     border: none;
     max-width: 350px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -91,4 +98,13 @@ p {
 
 .form-group {
     padding: 5px 0;
+}
+
+.list-group-item, a.list-group-item:hover {
+    padding-left: 25px;
+}
+
+.list-group-item p {
+    font-size: 20px;
+    color: #FFFFFF;
 }
