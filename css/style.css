@@ -1,49 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500&subset=latin-ext');
 
 body {
-    background: #973DBB;
-    font-family: Fjalla One;
+    background: url(../img/background.jpg);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.logo {
+    height: 130px;
+    padding-top: 10px;
 }
 
 .calendar-header {
     text-align: center;
-    color: #B5F44A;
-    text-shadow: 2px 2px 4px #87D8C0;
+    color: #FFFFFF;
     margin-bottom: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+span {
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.5;
+    margin-bottom: 40px;
 }
 
 .panel-default {
     border: none;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;    
 }
 
 .panel-default .panel-heading {
-    background-color: #5BC0EB;
-    color: #B5F44A;
+    background-color: rgba(0, 0, 0, 0.0);    
+    color: #FFF;
     text-shadow: 1px 1px 1px #000;
     font-size: 20px;
-    border-radius: 0;
+    border: none;
 }
 
 .panel-body {
-    background-color: #B5F44A;
     border-color: #000;
 }
 
+.panel-left {
+    float: left;
+    width: 75%;
+}
+
+.panel-right {
+    float: right;
+    width: 25%;
+    font-size: 50px;
+    opacity: 0.5;    
+}
+
 .btn {
-    background: #5BC0EB;
-    color: #B5F44A;
+    width: 100%;
+    background: #FD625E;
     text-shadow: 1px 1px 1px #000;
     font-size: 20px;
     border: none;
 }
 
 .btn:hover {
-    background: #87D8C0;
-    color: #B5F44A;
+    background: #FD7C78;
     text-shadow: 1px 1px 1px #000;
 }
 
 .form-control {
-    background-color: #FDE74C;
     border: 0;
+}
+
+.fa-pencil-square-o {
+    font-size: 75px;
+}
+
+.form-group {
+    padding: 5px 0;
 }
