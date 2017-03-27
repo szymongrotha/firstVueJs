@@ -31,9 +31,11 @@ new Vue({
         },
 
         addEvent: function() {
-            if(this.event.name) {
+            if(this.event.name && this.event.description && this.event.date) {
                 this.events.push(this.event);
                 this.event = { name: '', description: '', date: '' };
+            } else {
+                alert('Please fill out all required fields!')
             }
         }
     }
