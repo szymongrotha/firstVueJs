@@ -108,3 +108,9 @@ p {
     font-size: 20px;
     color: #FFFFFF;
 }
+
+.btn-close {
+    float: right;
+    width: auto;
+    cursor: pointer;
+}
